@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'neon-pink': '#D705F2',
+        'sort': '#2B2B2B'
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
