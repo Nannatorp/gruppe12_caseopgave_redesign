@@ -1,66 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival</title>
   </head>
-  <body class="grid place-items-center w-full">
+  <body class="w-full m-8">
 
-    <section class="">
-      <img class="grayscale" src="img/forside_billede.jpg" alt="">
-      <h1 class="font-['sofachrome'] text-neon-pink">
-        VILDSKUD
-        <br>
-        FESTIVAL
-        <br>
-        2022
-      </h1>
-    </section>
+    <header class="flex">
 
-    <section class="min-w-full grid place-items-center bg-neon-pink">
-      <h2 class="font-['sofachrome'] text-sort">
-        02.08 - 06.08 2022
-      </h2>
-    </section>
+      <div class="navbar">
+        <div class="navbar-start">
+          <img src="img/blomst.svg" alt="vildskud_festival" class="h-16">
+        </div>
+        <div class="navbar-center"></div>
+        <div class="navbar-end">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle swap swap-rotate">
+              <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+              <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Programoversigt</a></li>
+              <li><a>Hvem er vi?</a></li>
+              <li><a>Hvordan køber jeg billet?</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <section class="w-full grid place-items-left bg-sort text-white">
-      <h2 class="font-['sofachrome'] text-neon-pink">
-        PROGRAM
-      </h2>
-      <p>
-        WHAT FIRES TOGETHER WIRES TOGETHER
-      </p>
-      <p>
-        VILD MED MIG
-      </p>
-      <p>
-        RE-BIRTH
-      </p>
-      <p>
-        GO GO YO-YOKU
-      </p>
-      <p>
-        DET LEVENDE RUM
-      </p>
-      <p>
-        MAND LIGGER SOM MAND HAR REDT
-      </p>
-      <p>
-        FRYGTEN FOR IKKE AT LEVE
-      </p>
-      <p>
-        FREMTIDENS SCENEKUNST
-      </p>
-      <p>
-        NY DANSK DRAMATIK
-      </p>
-      <p>
-        SCENEKUNST OM TABU
-      </p>
 
-    </section>
+
+    <!--
+      <label class="btn btn-circle swap swap-rotate">
+  
+
+        <input type="checkbox" class="hidden"/>
+        
+
+        <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+        
+
+        <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+        
+      </label>
+    -->
+      
+
+
+      <!--
+      <div class="drawer drawer-end">
+      
+
+        <input id="burger-menu" type="checkbox" class="drawer-toggle"/>
+
+        
+        <div class="drawer-content">
+
+          <label for="burger-menu" class="swap-off fill-current drawer-button btn btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg></label>
+        </div> 
+
+        <div class="drawer-side">
+
+          <label for="burger-menu" class="swap-on fill-current drawer-overlay"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg></label>
+          
+          <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+
+            <li><a>1</a></li>
+            <li><a>2</a></li>
+          
+          </ul>
+        </div>
+
+      </div>
+    -->
+
+    </header>
+
+    <main>
+
+      <section class="artboard phone">
+        <div class="hero min-h-min">
+          <div class="hero-content text-center">
+            <div class="max-w-md p-8">
+              <h1 class="font-['sofachrome'] text-neon-pink text-3xl p-3"> 
+                VILDSKUD
+                <br>
+                FESTIVAL
+                <br>
+                2022
+              </h1>
+              <div class="bg-neon-pink">
+                <h2 class="font-['sofachrome'] text-sort">
+                  02.08 - 06.08 2022
+                </h2>
+              </div>
+              <p class="py-6">Vildskud er Københavns festival for uafhængig scenekunst. Vær med, se med. Vildskud er for alle der er interesserede i at dyrke og støtte spirende og uafhængige scenekunstnere.</p>
+              <button class="btn border-0 bg-secondary text-sort font-bold">Se program</button>
+
+              <img src="img/blomst.svg" alt="vildskud_festival" class="my-8">
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
+      <section id="program" class="artboard phone-2">
+        <div>
+          <h2 class="font-['sofachrome'] text-neon-pink">
+            PROGRAM
+          </h2>
+
+          <div class="grid gap-2 m-2 text-sort">
+  
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">WHAT FIRES TOGETHER WIRES TOGETHER <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                En forestilling af Astrid & Lotte Forestillingen “What Fires Together Wires Together” eksperimenterer i spændingsfeltet mellem dans/bevægelse og naturvidenskab. Den tager udgangspunkt i psykologen Donald Hebbs teori fra 1949; “What fires together wires together”, der beskriver hvordan repetitiv fyring af to nærliggende neuroner øger effektiviteten af den pågældende neuronale bane. Lidt ligesom en sti i græsset, der bliver nemmere at betræde jo flere, der går på den. Alt dette er sat i et identitetsperspektiv, der sætter spørgsmålstegn ved, hvor fastgroet vores identitet i virkeligheden er. Medvirkende: Astrid Sten Andersen, Lotte Bjørnholt Fink, Anton Hvidtjørn og Sidsel Sten Andersen
+              </p>
+            </details>
+
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">VILD MED MIG <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                Forestilling af TEATER MANNEQUIN Velkommen! Til et univers i kærlighedens navn. Vi inviterer dig ind i en intim, musikalsk og glimtende undersøgelse af selvbilleder, kærlighed og higen efter at blive set, hørt og rørt. Vi tager dig i hånden og følger dig trygt igennem vores svar på livets store spørgsmål; er selvkærlighed løsningen på alle problemer? Havde din gymnasielærer ret, da hun sagde, du bare skulle stole mere på dig selv - så vil verden lægge sig for dine fødder? Medvirkende: Therese Maria Bilfeldt, Matilde Kjær Hilligsøe og Laura Alhed Nielsen Konsulent: Alberte M. H Jacobsen
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">RE-BIRTH <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">GO GO YO-YOKU <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv fri i en skov. Det går godt for de tre roomies med at dele lejlighed, men kæft det går dårligt med at være mennesker i en nulfejlskultur, hvor alt handler om meritter og milepælsplaner. Rakel er blevet droppet af sin eks, Lua kommer bare aldrig videre til prøverne på Skuespillerskolen og Skjold dater alarmerende uhyggeligt meget. Ikke flere undvigemanøvre for at blive stemplet som fiasko. Ikke flere hvide løgne for at være bedre end man er. Ikke mere pleaser-pis for at rykke op i sit selvskabte hierarki. Ud med skam og ind med sandhed. Med inspiration i Shinrin-Yoku, anti-happy-go-lucky-mentalitet, vigtige venner og svære erkendelser tager Teater Kopfkino os med på en komisk dannelsesrejse midt i bøvlede livsprocesser. Instruktør: August Aabo Skuespillere Ann Celina Fønsskov, Sally Klie & Luca Storm Tekniker Niels Eske Juul Andersen Komponist Simon Klie Lyrik Musa Mijia Scenograf Ida Sofie Larsen Fotograf Tenzin Olivia Gustenhoff & Liva Bech Holskov Konsulent: Emil Christiansen
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">DET LEVENDE RUM <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                En forestilling af Spræng Danseteater. I ‘Det Levende Rum’ møder vi de mennesker, der er blevet elimineret fra den utopiske verden ‘New Harmony’. De er alle syndige i at have brudt ‘New Harmony’s regler og normer for god opførsel. Sat uden for samfundet opdager de, at de er overladt til dem selv, at der ingen begrænsninger og konsekvenser er, ved at følge deres menneskelige drifter. Sproget forsvinder, og fysikken tager over. Velkommen til den store driftsfest! Medvirkende: Sarah Olivia Klitgaard, Karoline Gammelgaard Jensen , Helga Bach-Mortensen , Katrine Vedsø Jakobsen og Mollie Næss-Schmidt Konsulent: Mia Lomholt Tvede Med støtte fra: Snabslanten og DATS - Dansk Amatør Teater & Scenekunst
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">MAND LIGGER SOM MAND HAR REDT <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                En forestilling af Kill Your Darlings Hvad sker der mellem mænd når der ikke er andre til stede? Logen: Et sted hvor kun mænd er velkomne. Hvor mænd føler sig trygge, men også hvor alt er på spil, både for dem som individer og som gruppe. Et nyt medlem skal optages i logen og indvies i broderskabets fællesskab, ritualer og kutymer. Hierarki, skyld, tabu, magt og maskulinitet bliver sat på en spids i et rum, hvor alt er velkomment. Både de sarte og følsomme momenter, samt vold, druk og alt imellem. Instruktør Rasmus Kragh Hemmingsen, Medinstruktør Laura Reynberg Langkilde Kunstnerisk ledelse Josefine Münster-Swendsen, Laura Reynberg Langkilde, Rasmus Kragh Hemmingsen Skuespillere Andreas Bitsch Lucas Da Costa Jørgensen, Malthe Heiberg, Mattias Valdemar Nielsen, Niels August Garly Andersen, Rasmus Grarup Elbo, Idé Bjørn Fonnesbech, Niels August Garly Andersen, Rasmus Kragh Hemmingsen Lys/lydtekniker Rasmus Lindahl Konsulent: Mia Lomholt Tvede
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">FRYGTEN FOR IKKE AT LEVE <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                En forestilling af JUNOS DISCIPLE I forestillingen “Frygten for ikke at leve” stiller vi os foran det spejl, der hedder Emilie Sannom. Emilie var berømt stuntkvinde og luftakrobat i 1920’ernes stumfilm. Hun var frygtløs - der var ingenting hun ikke turde. Hun var verdenskendt som filmens vovehals, mændenes overmand og luftens herskerinde. I et drømmeunivers undersøger vi mennesket uden frygt. Kan vi leve et helt liv, og aldrig blive bange? Kan vi give afkald på frygten, uden at give afkald på os selv? Hvor smal er linjen mellem drøm og mareridt? Medvirkende: Amanda Syhler, Barbara Campeotto, Xenia Winther, Anna Gohr, Kristina Freese, Christian Mondrup, Fie Schmidt og Sofie Øhrberg Lund Konsulent: Julie Mogensen
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">FREMTIDENS SCENEKUNST <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                Hvad scenekunsten skal? Hvad er dine og vores fælles drømme for fremtidens scenekunst? Hvordan skal den udvikle sig?
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">NY DANSK DRAMATIK <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                Oplæsning af ny dansk dramatik, samt en snak og diskussion om moderne, såvel som gammel, dansk dramatik.
+              </p>
+            </details>
+
+            <details class="bg-secondary">
+              <summary class="list-none m-2 font-bold">SCENEKUNST OM TABU <span class="text-xl">→</span></summary>
+              <p class="bg-secondary m-8">
+                Hvordan kan vi bruge scenekunst til at bryde med tabuer og svære emner? Hvad skal scenekunsten kunne bidrage med og bruges til i debaten om tabu? Og skal scenekunsten det?
+              </p>
+            </details>
+          </div>
+
+        </div>
+    
+      </section>
+
+    </main>
+
+      <footer>
+        
+      </footer>
 
 
 
