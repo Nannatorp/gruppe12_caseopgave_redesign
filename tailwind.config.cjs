@@ -7,6 +7,9 @@ module.exports = {
         'neon-pink': '#D926A9',
         'sort': '#2B2B2B'
       },
+      fontFamily: {
+        'sofachrome': 'sofachrome, sans-serif'
+      }
     },
   },
   plugins: [
