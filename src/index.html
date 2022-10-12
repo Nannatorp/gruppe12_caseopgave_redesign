@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival</title>
   </head>
-  <body class="">
-    <header>
+  <body class="sm:grid sm:place-content-center m-4">
+    <header class="">
       <div class="navbar">
         <div class="navbar-start">
-            <img src="img/logo_blomst.svg" alt="vildskud_festival" class=""/>
+            <img src="img/logo_blomst.svg" alt="vildskud_festival" class="h-8"/>
         </div>
         <div class="navbar-end">
-          <div class="dropdown">
+          <div class="dropdown static">
             <label tabindex="0" class="btn swap btn-circle swap-rotate">
               <svg
                 class="fill-current"
@@ -26,17 +26,17 @@
             </label>
             <ul
               tabindex="0"
-              class="dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow">
-              <li><a href="program.html">Programoversigt</a></li>
-              <li><a href="om.html">Hvem er vi?</a></li>
-              <li><a href="billet.html">Hvordan køber jeg billet?</a></li>
+              class="dropdown-content menu rounded-box menu-compact mt-4 gap-8 p-4 w-52 bg-base-100 p-2 shadow left-2/4 text-xl font-bold">
+              <li><a href="program.html">PROGRAMOVERSIGT</a></li>
+              <li><a href="om.html">HVEM ER VI?</a></li>
+              <li><a href="billet.html">KØB BILLETTER</a></li>
             </ul>
           </div>
         </div>
       </div>
     </header>
 
-    <main class="grid place-content-center">
+    <main class="">
       <section class="">
         <div class="hero min-h-min">
           <div class="hero-content text-center">
@@ -73,14 +73,14 @@
         <div>
           <h2 class="font-['sofachrome'] text-2xl text-neon-pink">PROGRAM</h2>
 
-          <div class="m-2 grid gap-2">
-            <details class="border-8 border-secondary">
-              <summary class="m-4 flex list-none justify-between font-bold">
+          <div class="m-2 grid gap-8">
+            <details class="bg-secondary">
+              <summary class="m-4 flex list-none justify-between font-bold text-sort">
                 WHAT FIRES TOGETHER WIRES TOGETHER
                 <span class="text-xl">↓</span>
               </summary>
               <div class="m-8">
-                <p class="mb-6">
+                <p class="mb-6 text-sort">
                   En forestilling af Astrid & Lotte Forestillingen “What Fires
                   Together Wires Together” eksperimenterer i spændingsfeltet
                   mellem dans/bevægelse og naturvidenskab. Den tager
@@ -293,7 +293,7 @@
       </section>
     </main>
 
-    <footer class="grid place-items-center">
+    <footer class="grid place-items-center m-8">
       <div class="grid grid-cols-2 pb-12">
         <div class="grid">
           <span class="footer-title">Vildskud</span>
