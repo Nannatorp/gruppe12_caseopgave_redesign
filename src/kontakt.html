@@ -9,23 +9,75 @@
   <body>
     <main class="grid place-content-center">
       <div class="max-w-2xl p-8">
-        <h1 class="my-10 font-sofachrome text-2xl text-neon-pink">
+        <h1 class="my-10 text-center font-sofachrome text-2xl text-neon-pink">
           Kontakt os
         </h1>
-        <h2>Hejsa!</h2>
-        <p>
-          Har du spørgsmål vedr. frivilligt arbejde, hvad det vil sige at være
-          samarbejdspartner med Vildskud, om at spille på festivalen, eller vil
-          du bare sige hej?
-        </p>
-        <p>
-          Så send en besked til Vildskud-temaet ved hjælp af kontaktformularen.
-        </p>
-        <p>
-          Hvis du er på udkig efter en bestemt person/rolle i teamet, kan du
-          også tage et kig på vores
-          <a class="link link-secondary" href="om.html">om os side.</a>
-        </p>
+        <div>
+          <h2 class="text-xl font-bold text-neon-pink">Hejsa!</h2>
+          <p>
+            Har du spørgsmål vedr. frivilligt arbejde, hvad det vil sige at være
+            samarbejdspartner med Vildskud, om at spille på festivalen, eller
+            vil du bare sige hej?
+          </p>
+
+          <p class="my-4">
+            Så send en besked til Vildskud-temaet ved hjælp af
+            kontaktformularen. Hvis du er på udkig efter en bestemt person/rolle
+            i teamet, kan du også tage et kig på vores
+            <a class="link link-secondary" href="om.html">om os side.</a>
+          </p>
+        </div>
+
+        <div class="my-10">
+          <form>
+            <div class="my-6">
+              <label for="fname">Dit navn (skal udfyldes)</label><br />
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Hans Hansen"
+                required
+                class="input input-bordered input-secondary w-full max-w-md"
+              />
+            </div>
+
+            <div class="my-6">
+              <label for="mail">Din email (skal udfyldes)</label><br />
+              <input
+                type="email"
+                id="mail"
+                name="mail"
+                placeholder="hans.hansen@gmail.com"
+                required
+                class="input input-bordered input-secondary w-full max-w-md"
+              />
+            </div>
+
+            <div class="my-6">
+              <label for="emne">Emne</label><br />
+              <input
+                type="text"
+                id="emne"
+                name="emne"
+                class="input input-bordered input-secondary w-full max-w-md"
+              />
+            </div>
+
+            <div class="my-6">
+              <label for="besked">Din besked</label><br />
+              <textarea
+                name="besked"
+                id="besked"
+                cols="30"
+                rows="10"
+                class="input input-bordered input-secondary w-full max-w-md"
+              ></textarea>
+            </div>
+
+            <input type="submit" class="btn btn-secondary" />
+          </form>
+        </div>
       </div>
     </main>
 
