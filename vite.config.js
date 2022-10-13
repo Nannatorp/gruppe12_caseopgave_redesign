@@ -21,6 +21,7 @@ export default defineConfig({
         frivillig: resolve(__dirname, "src/frivillig.html"),
         opencall: resolve(__dirname, "src/opencall.html"),
         sitemap: resolve(__dirname, "src/sitemap.html"),
+        sitemapxml: resolve(__dirname, "src/sitemap.xml"),
       },
     },
   },
